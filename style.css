@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.big-header{
+  background-color: #192a56;
+  height: 80px;
+}
+
+.container{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.header-left{
+  float: left;
+}
+
+.header-right{
+  float: right;
+}
+
+.relative {
+  position: relative;
+}
+
+.header-left .relative{
+  text-transform: uppercase;
+  color: #fff;
+  width: 50%;
+  height: 80px;
+}
+
+.header-left .relative img {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+.header-left .relative ,
+.header-right .relative {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 15px;
+}
+
+.header-right nav ul li{
+  margin-right: 30px;
+}
+
+.header-left nav ul li {
+  margin-left: 30px;
+}
+
+nav ul li,
+nav ul li a {
+  list-style-type: none;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/*buttons*/
+.button1,.button{
+  border: 1px solid #00a8ff;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button2{
+  border-radius: 5px;
+  background-color: #4cd137;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/*section sub-header*/
+.sub-header{
+  width: 100%;
+  height: 400px;
+  background-color: #192a56;
+}
+.container2 {
+  width: 70%;
+  height: 60%;
+  margin: 0 auto;
+}
+
+.text1 {
+  font-size: 70px;
+  display:block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+/*--sub-section--*/
+.sub-section{
+  width: 100%;
+  height: 150px;
+  background-color: #f5f6fa;
+  text-align: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 40px 20px 30px 20px;
+}
+
+.corso{
+  color: #718093;
+}
+
+/*three cols*/
+.container3 {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.container3:after {
+  clear:both;
+  display: table;
+  content: '';
+}
+.three-cols hr {
+  margin: 60px auto;
+}
+.text-center {
+  text-align: center;
+}
+.col-2 {
+  width: 50%;
+  float: left;
+}
+.col-3 {
+  width:33.33%;
+  float: left;
+  padding: 20px;
+}
+.three-cols {
+  padding: 20px;
+}
+.three-cols .col-3 img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 40px;
+}
+.three-cols .col-3 hr {
+  width: 10%;
+  margin: 20px auto;
+}
+.col-2-img {
+  width: 70%;
+  margin-left: 20%;
+}
+
+.h2-color{
+  color: #4cd137;
+}
